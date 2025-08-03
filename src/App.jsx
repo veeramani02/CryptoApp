@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes,Route} from 'react-router-dom'
+import { HashRouter, Routes,Route} from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import Marketlist from './Pages/Marketlist'
 import CoinDetails from './Pages/CoinDetails'
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
    
-    <BrowserRouter>
+    <HashRouter>
      <Navbar/>
     <Routes>
       
@@ -18,7 +18,7 @@ function App() {
         <Route path="/coin/:id" element={<CoinDetails />} />
         <Route path="/watchlist" element={<Watchlist />} />
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </>
   )
 }
