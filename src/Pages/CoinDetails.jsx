@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { useCrypto } from "../context/CryptoContext";
+import { useCrypto } from "../Context/CryptoContext";
 import { Star, StarOff } from "lucide-react";
 import { Line } from "react-chartjs-2";
 import {
