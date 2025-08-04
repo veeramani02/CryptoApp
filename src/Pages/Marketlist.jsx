@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Search as SearchIcon, Filter } from "lucide-react";
-import { useCrypto } from "../context/CryptoContext";
+import { useCrypto } from "../Context/CryptoContext";
 import { useNavigate } from "react-router-dom";
 
 const MarketList = () => {
